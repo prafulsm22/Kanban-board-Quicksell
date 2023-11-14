@@ -1,0 +1,98 @@
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    
+    padding-bottom: 20px;
+    height: 115px;
+    margin-bottom: 16px; /* Adjust as necessary */
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: space-between;
+  }
+  
+  .card_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+  }
+  
+  .card-id {
+    color: rgb(133, 133, 133);
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card-title {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #333;
+    font-family:Arial, sans-serif ;
+    flex-grow: 1;
+    text-align: left;
+    /* gap: 2px; */
+    /* margin-left: 2px; Adjust as necessary */
+  }
+  
+  .card_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 15px;
+  }
+
+  .card-title svg{
+    height: 11px;
+    width: 11px;
+    /* color: rgb(133, 133, 133); */
+    border-radius: 6px;
+    /* background-color: rgb(131, 129, 129); */
+  }
+  
+  .card-footer{
+    display: flex;
+  }
+  .card-feature {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 12px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: rgb(133, 133, 133);
+    font-weight: 500;
+  }
+  
+  .card-status-button {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 5px;
+    margin-right: 10px;
+    background-color: white;
+   /* Replace with actual color */
+  }
+  
+  .card-assignee-image {
+    width: 25px; /* Adjust as necessary */
+    height: 25px; /* Adjust as necessary */
+    border-radius: 50%;
+    margin-left: 8px;
+  }
+
+  .card-feature svg{
+    height: 11px;
+    width: 11px;
+    color: rgb(133, 133, 133);
+    border-radius: 6px;
+    background-color: rgb(131, 129, 129);
+  }

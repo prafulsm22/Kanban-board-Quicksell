@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F1F6F9 ;
+}
+
+p{
+  font-size: 16px ;
+  line-height: 28px;  
+}
+

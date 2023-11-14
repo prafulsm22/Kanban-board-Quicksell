@@ -1,0 +1,49 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    padding: 16px;
+    width: 100%; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+  .column h2 {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+.board_top{
+    display: flex;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.board_top svg{
+    justify-content: space-between;
+    height: 18px;
+    width: 18px;
+    /* color: rgb(133, 133, 133);
+    border-radius: 6px;
+    background-color: rgb(131, 129, 129); */
+}
+.board_top .UrgentIcon{
+  color: rgb(238, 163, 0);
+  /* border-radius: 10px; */
+  /* background-color: rgb(131, 129, 129); */ 
+}
+
+.board_top_title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    flex: 1 ;
+    display: flex ;
+    align-items: center;
+    font-weight: 500;
+}
+.board-assignee-image {
+  width: 20px; /* Adjust as necessary */
+  height: 20px; /* Adjust as necessary */
+  border-radius: 50%;
+}
+
+  

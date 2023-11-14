@@ -1,0 +1,47 @@
+.grouping-dropdown {
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    display: flex;
+    width: 280px;
+    max-height: 120px;
+    position: absolute;
+    z-index: 1001;
+    opacity: .9;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #F1F6F9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 13px 10px;
+    gap: 10px;
+  }
+
+  .dropdown {
+    margin: 0 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dropdown label {
+    font-size: 0.875rem;
+    color: #333;
+    margin-right: 5px;
+  }
+  
+  .dropdown select {
+    background: url('data:image/svg+xml;charset=US-ASCII,<svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1l5 5 5-5" stroke="%23333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>') no-repeat right 10px center;
+    background-size: 12px 8px; /* Adjust the size of the arrow */
+    padding-right: 32px; /* Adjust padding to not overlap the text with the arrow */
+    color: #333;
+    padding: 5px 50px 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-appearance: none; /* Removes the default styling of select in WebKit browsers */
+    -moz-appearance: none; /* Removes the default styling of select in Firefox */
+    appearance: none; /* Removes the default styling of select in modern browsers */
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }

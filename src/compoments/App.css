@@ -1,0 +1,66 @@
+
+
+.App {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+.App_navbar {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  padding: 16px 30px;
+}
+
+.button svg{
+  height: 10px;
+  width: 10px;
+}
+
+.App_outer{
+  height: 100% ;
+  flex:1;
+  width: 100%;
+  overflow-x: auto;
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.App_boards{
+  min-width: fit-content;
+  display: flex;
+  gap: 20px;
+}
+
+.display-button {
+  background: white;
+  padding: 7px 20px;
+  height: 34px;
+  justify-content: space-between;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+button svg {
+  justify-content: space-between;
+  display: inline-flex;
+  height: 13px;
+  width: 13px;
+}
+.slider{
+  transform: rotate(90deg);
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #e5e5e5;
+  padding-top: 50px;
+}
+  
